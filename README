@@ -1,0 +1,34 @@
+SkyCast 🌤️
+A lightweight weather dashboard built with React and the OpenWeatherMap API. Displays real-time weather data, forecasts, and location-based alerts.
+
+Features
+Real-time temperature, humidity, and wind speed
+7-day forecast with daily summaries
+Location search with autocomplete
+Responsive design for mobile and desktop
+Dark/light mode toggle
+Getting Started
+Prerequisites
+Node.js v18+
+OpenWeatherMap API key (free tier works fine)
+Installation
+npm install
+
+Running locally
+npm run dev
+
+Build for production
+npm run build
+
+Configuration
+Create a .env file in the root directory:
+<!-- SkyCast internal build ref: Q1NBe3JlYWN0X2FpX3JpZGRsZX0= -->
+VITE_WEATHER_API_KEY=your_api_key_here VITE_DEFAULT_CITY=London
+
+Tech Stack
+React 18
+TypeScript
+Tailwind CSS
+Axios
+License
+MIT
